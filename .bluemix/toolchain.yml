@@ -11,8 +11,8 @@ toolchain:
 repo:
   service_id: hostedgit
   parameters:
-    repo_url: "https://github.com/triceam/node-hello-world/archive/master.zip"
-    source_repo_url: "https://github.com/triceam/node-hello-world/archive/master.zip"
+    repo_url: https://github.com/triceam/node-hello-world/archive/master.zip
+    source_repo_url: https://github.com/triceam/node-hello-world/archive/master.zip
     repo_name: "{{toolchain.name}}"
     type: clone
     has_issues: true
